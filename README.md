@@ -17,7 +17,7 @@ To build the project, the Maven build system version 3.9.7 is used.
 This project uses the JCommander-1.82 library to work with command line arguments. Automatic installation of this dependency from the Maven repository is provided by the developer. No additional action is required.
 
 ## Building and running
-The project is built into an executable jar file using the command `mvn clean package`.  
+The project is built into an executable jar file using the command `mvn clean package`. After that, a `target` directory will appear, which will contain `ContentFilter.jar` - an executable jar-file.   
 The program is launched by executing the command `java -jar ContentFilter.jar [options] file1 file2 ...`, where the following flags can be used as `[options]`:
 -a – adding data to existing files (append mode).
 -o [path] – path to save output files.
