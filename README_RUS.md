@@ -18,18 +18,18 @@
 В данном проекте для работы с аргументами командной строки используется библиотека JCommander-1.82. Автоматическая установка данной зависимости из репозитория Maven предусмотрена предусмотрена разработчиком. Никаких дополнительных действий не требуется.
 
 ## Структура проекта
-ContentFilter/
-|-- src/
-|   |-- main/
-|   |   |-- java/
-|   |   |   |-- com/
-|   |   |   |   |-- musatov/
-|   |   |   |   |   |-- ContentFilter/
-|   |   |   |   |   |   |-- ArgsParser.java
-|   |   |   |   |   |   |-- FileProcessor.java
-|-- pom.xml
-|-- README.md
-|-- README_RUS.md
+ContentFilter/  
+|-- src/  
+|   |-- main/  
+|   |   |-- java/  
+|   |   |   |-- com/  
+|   |   |   |   |-- musatov/  
+|   |   |   |   |   |-- ContentFilter/  
+|   |   |   |   |   |   |-- ArgsParser.java  
+|   |   |   |   |   |   |-- FileProcessor.java  
+|-- pom.xml  
+|-- README.md  
+|-- README_RUS.md  
 
 ## Команда для сборки и запуска
 Сборка проекта в исполняетмый jar-файл производится командой `mvn clean package`

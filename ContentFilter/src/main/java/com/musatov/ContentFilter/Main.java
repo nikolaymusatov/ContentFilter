@@ -10,5 +10,4 @@ public class Main {
         FileProcessor fileProcessor = new FileProcessor(argsParser);
         fileProcessor.processFiles(argsParser.getInputFilePaths());
     }
-    
 }
