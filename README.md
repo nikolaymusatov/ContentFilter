@@ -16,20 +16,6 @@ To build the project, the Maven build system version 3.9.7 is used.
 ## Third party libraries
 This project uses the JCommander-1.82 library to work with command line arguments. Automatic installation of this dependency from the Maven repository is provided by the developer. No additional action is required.
 
-## Project structure
-ContentFilter/  
-|-- src/  
-|   |-- main/  
-|   |   |-- java/  
-|   |   |   |-- com/  
-|   |   |   |   |-- musatov/  
-|   |   |   |   |   |-- ContentFilter/  
-|   |   |   |   |   |   |-- ArgsParser.java  
-|   |   |   |   |   |   |-- FileProcessor.java  
-|-- pom.xml  
-|-- README.md  
-|-- README_RUS.md
-
 ## Building and running
 The project is built into an executable jar file using the command `mvn clean package`.  
 The program is launched by executing the command `java -jar ContentFilter.jar [options] file1 file2 ...`, where the following flags can be used as `[options]`:
